@@ -44,5 +44,10 @@ namespace _2016._08._08
                 return temp;
             }
         }
+        public Student this[int k]
+        {
+            get { return students[k]; }
+            set{students[k]=value;}
+        }
     }
 }
