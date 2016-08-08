@@ -1,0 +1,12 @@
+D:\Soltan\C#\2016.07.06\bin\Debug\2016.07.06.exe.config
+D:\Soltan\C#\2016.07.06\bin\Debug\2016.07.06.exe
+D:\Soltan\C#\2016.07.06\bin\Debug\2016.07.06.pdb
+D:\Soltan\C#\2016.07.06\obj\Debug\2016.07.06.csprojResolveAssemblyReference.cache
+D:\Soltan\C#\2016.07.06\obj\Debug\2016.07.06.exe
+D:\Soltan\C#\2016.07.06\obj\Debug\2016.07.06.pdb
+D:\Soltan\C#\2016.07.11\bin\Debug\2016.07.06.exe.config
+D:\Soltan\C#\2016.07.11\obj\Debug\2016.07.06.exe
+D:\Soltan\C#\2016.07.11\obj\Debug\2016.07.06.pdb
+D:\Soltan\C#\2016.07.11\bin\Debug\2016.07.06.exe
+D:\Soltan\C#\2016.07.11\bin\Debug\2016.07.06.pdb
+D:\Soltan\C#\2016.07.11\obj\Debug\2016.07.06.csprojResolveAssemblyReference.cache

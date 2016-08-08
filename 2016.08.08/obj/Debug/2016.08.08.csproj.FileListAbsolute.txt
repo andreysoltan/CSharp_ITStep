@@ -1,0 +1,6 @@
+D:\Soltan\C#\2016.08.08\bin\Debug\2016.08.08.exe.config
+D:\Soltan\C#\2016.08.08\obj\Debug\2016.08.08.csprojResolveAssemblyReference.cache
+D:\Soltan\C#\2016.08.08\bin\Debug\2016.08.08.exe
+D:\Soltan\C#\2016.08.08\bin\Debug\2016.08.08.pdb
+D:\Soltan\C#\2016.08.08\obj\Debug\2016.08.08.exe
+D:\Soltan\C#\2016.08.08\obj\Debug\2016.08.08.pdb
