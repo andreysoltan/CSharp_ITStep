@@ -85,7 +85,7 @@ namespace _2016._08._31
             Console.WriteLine("Deleted");
             */
 
-            //search by lname
+            //search by lname and raiting modifier
             Console.WriteLine("Enter surname you want to find:");
             string last_name_search = Console.ReadLine();
             int k = 0;
