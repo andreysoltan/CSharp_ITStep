@@ -76,11 +76,34 @@ namespace _2016._08._31
                 Console.WriteLine("OK");
             }*/
 
+            //delete
+            /*
             XmlNode x = root.ChildNodes[2];
             root.RemoveChild(x);
 
             doc.Save(@"../../Data/data1.xml");
             Console.WriteLine("Deleted");
+            */
+
+            //search by lname
+            Console.WriteLine("Enter surname you want to find:");
+            string last_name_search = Console.ReadLine();
+            int k = 0;
+            foreach (XmlNode n in nodes)
+            {
+                if (n.Attributes[2].Value == last_name_search)
+                {
+                    Console.WriteLine("There is a match to your "+last_name_search);
+                    break;
+                }
+               ++k;
+            }
+
+            Console.Write("Enter raito: ");
+            string r = Console.ReadLine();
+            nodes[k].Attributes[4].Value = r;
+            doc.Save(@"../../Data/data1.xml");
+            Console.WriteLine("Modified.");
         }
     }
 }
