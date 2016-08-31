@@ -2,7 +2,7 @@
 <students>
   <student id="1" fname="UserTestName" lname="UserTestLName" age="20" rate="4.1" />
   <student id="2" fname="UserTestName" lname="UserTestLName" age="19" rate="4.6" />
-  <student id="3" fname="UserTestName" lname="UserTestLName" age="22" rate="4.5" />
+  <student id="3" fname="UserTestName" lname="UserTestLName" age="22" rate="3.8" />
   <student id="4" fname="UserTestName" lname="UserTestLName" age="20" rate="3.3" />
   <student id="5" fname="UserTestName" lname="UserTestLName" age="18" rate="2.5" />
   <student id="6" fname="UserEnteredName" lname="UserEnteredLName" age="26" rate="5.0" />

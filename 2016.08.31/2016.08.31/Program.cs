@@ -31,6 +31,7 @@ namespace _2016._08._31
             }
 
             //adding data
+            /*
             XmlElement s = doc.CreateElement("student");
 
             XmlAttribute id = doc.CreateAttribute("id");
@@ -59,9 +60,7 @@ namespace _2016._08._31
 
             Console.Write("rate:");
             string arate = Console.ReadLine();
-            rate.Value = arate;
-
-            
+            rate.Value = arate;            
 
             s.Attributes.Append(id);
             s.Attributes.Append(fname);
@@ -75,7 +74,13 @@ namespace _2016._08._31
                 doc.Save(@"../../Data/data1.xml");
 
                 Console.WriteLine("OK");
-            }
+            }*/
+
+            XmlNode x = root.ChildNodes[2];
+            root.RemoveChild(x);
+
+            doc.Save(@"../../Data/data1.xml");
+            Console.WriteLine("Deleted");
         }
     }
 }
