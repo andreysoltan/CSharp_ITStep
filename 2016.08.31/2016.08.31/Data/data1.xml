@@ -1,1 +1,23 @@
-﻿<?xml version="1.0" encoding="utf-8" ?> 
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<students>
+  <student id="1" fname="UserTestName" 
+                  lname="UserTestLName"
+                  age="20"
+                  rate="4.1"></student>
+  <student id="2" fname="UserTestName"
+                lname="UserTestLName"
+                age="19"
+                rate="4.6"></student>
+  <student id="3" fname="UserTestName"
+                lname="UserTestLName"
+                age="22"
+                rate="4.5"></student>
+  <student id="4" fname="UserTestName"
+              lname="UserTestLName"
+              age="20"
+              rate="3.3"></student>
+  <student id="5" fname="UserTestName"
+              lname="UserTestLName"
+              age="18"
+              rate="2.5"></student>
+</students>
