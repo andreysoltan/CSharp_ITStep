@@ -29,6 +29,53 @@ namespace _2016._08._31
                 }
                 Console.WriteLine();
             }
+
+            //adding data
+            XmlElement s = doc.CreateElement("student");
+
+            XmlAttribute id = doc.CreateAttribute("id");
+            XmlAttribute fname = doc.CreateAttribute("fname");
+            XmlAttribute lname = doc.CreateAttribute("lname");
+            XmlAttribute rate = doc.CreateAttribute("rate");
+            XmlAttribute age = doc.CreateAttribute("age");
+
+            Console.WriteLine("\n>Enter data:");            
+
+            Console.Write("id:");
+            string aid = Console.ReadLine();
+            id.Value = aid;
+
+            Console.Write("fname:");
+            string afname = Console.ReadLine();
+            fname.Value = afname;
+
+            Console.Write("lname:");
+            string alname = Console.ReadLine();
+            lname.Value = alname;
+
+            Console.Write("age:");
+            string aage = Console.ReadLine();
+            age.Value = aage;
+
+            Console.Write("rate:");
+            string arate = Console.ReadLine();
+            rate.Value = arate;
+
+            
+
+            s.Attributes.Append(id);
+            s.Attributes.Append(fname);
+            s.Attributes.Append(lname);          
+            s.Attributes.Append(age);
+            s.Attributes.Append(rate);
+
+            root.AppendChild(s);
+            if (true)
+            {
+                doc.Save(@"../../Data/data1.xml");
+
+                Console.WriteLine("OK");
+            }
         }
     }
 }
