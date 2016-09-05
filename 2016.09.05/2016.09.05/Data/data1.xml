@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <goods>
-<item id="1" title="NumOneGood" category="FirstCatGood" price="19.99" producer="prodone" quantity="4"/>
-<item id="2" title="NumTwoGood" category="SecondCatGood" price="19.99" producer="prodtwo" quantity="4"/>
-<item id="3" title="NumThreeGood" category="ThirdCatGood" price="19.99" producer="prodthree" quantity="4"/>
-<item id="4" title="NumFourGood" category="FirstCatGood" price="19.99" producer="prodone" quantity="4"/>
-<item id="5" title="NumFiveGood" category="FirstCatGood" price="19.99" producer="prodone" quantity="4"/>
+<item id="1" title="NumOneGood" category="FirstCatGood" price="19" producer="prodone" quantity="4"/>
+<item id="2" title="NumTwoGood" category="SecondCatGood" price="199" producer="prodtwo" quantity="4"/>
+<item id="3" title="NumThreeGood" category="ThirdCatGood" price="19" producer="prodthree" quantity="4"/>
+<item id="4" title="NumFourGood" category="FirstCatGood" price="19" producer="prodone" quantity="4"/>
+<item id="5" title="NumFiveGood" category="FirstCatGood" price="19" producer="prodone" quantity="4"/>
 </goods>

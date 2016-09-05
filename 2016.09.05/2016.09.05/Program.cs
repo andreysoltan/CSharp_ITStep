@@ -11,9 +11,8 @@ namespace _2016._09._05
     {
         static void Main(string[] args)
         {
-            XmlTextReader reader = new XmlTextReader(@"../../Data/data1.xml");
-            reader.WhitespaceHandling = WhitespaceHandling.None;
-
+            //primal example
+            /*
             while (reader.Read())
             {
                 XmlNodeType type = reader.NodeType;
@@ -27,14 +26,21 @@ namespace _2016._09._05
                 {
                     Console.WriteLine(reader.GetAttribute("id"));
                     Console.WriteLine(reader.GetAttribute("title"));
-                    Console.WriteLine(reader.GetAttribute(" "));
-                }
-            
+                    Console.WriteLine(" ");
+                }            
             }
-
             reader.Close();
+            */
 
+            // product constructor check
+            /*
+            Product prod = new Product("n","prod",1,1);
+            prod.Display();
+            */
 
+            Catalog cata = new Catalog(@"../../Data/data1.xml");
+            cata.addGood();
+            cata.Display();
         }
     }
 }
