@@ -5,4 +5,4 @@
 <item id="3" title="NumThreeGood" category="ThirdCatGood" price="19.99" producer="prodthree" quantity="4"/>
 <item id="4" title="NumFourGood" category="FirstCatGood" price="19.99" producer="prodone" quantity="4"/>
 <item id="5" title="NumFiveGood" category="FirstCatGood" price="19.99" producer="prodone" quantity="4"/>
-  </goods>
+</goods>
