@@ -41,6 +41,7 @@ namespace _2016._09._05
             Catalog cata = new Catalog(@"../../Data/data1.xml");
             cata.addGood();
             cata.Display();
+            cata.Update();
         }
     }
 }

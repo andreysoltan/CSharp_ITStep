@@ -17,7 +17,7 @@ namespace _2016._09._05
             this.path = path;
             list = new List<Product>();
         }
-                
+
         public void addGood()
         {
             XmlTextReader reader = new XmlTextReader(path);
@@ -43,18 +43,40 @@ namespace _2016._09._05
 
                         Console.WriteLine(e.Message);
                     }
-                   
+
                 }
             }
-            
+
+            reader.Close();
         }
 
         public void Display()
         {
-            foreach(Product p in list)
+            foreach (Product p in list)
             {
                 p.Display();
             }
+        }
+
+        public void Update()
+        {
+            XmlTextWriter writer = new XmlTextWriter(path,Encoding.UTF8);
+            writer.Formatting = Formatting.Indented;
+
+            writer.WriteStartDocument();
+
+            writer.WriteStartElement("goods");
+            writer.WriteStartElement("item");
+            writer.WriteAttributeString("title","writerName");
+            writer.WriteAttributeString("category", "writerCategory");
+            writer.WriteAttributeString("price", "writerPrice");
+            writer.WriteAttributeString("producer", "writerProducer");
+
+            writer.WriteEndElement();
+            writer.WriteEndElement();
+            writer.WriteEndDocument();
+
+            writer.Close();
         }
     }
 }

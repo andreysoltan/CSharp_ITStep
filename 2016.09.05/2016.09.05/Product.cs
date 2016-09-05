@@ -21,7 +21,7 @@ namespace _2016._09._05
         public void Display()
         {
             Console.WriteLine("producer:{1},price:{2},quantity:{3}",
-                name,producer,price,quantity);
+                name, producer, price, quantity);
         }
     }
 }
