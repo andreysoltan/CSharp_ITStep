@@ -25,8 +25,8 @@ namespace _2016._09._07
         {
             return String.Format(
                 "name:{0}" +
-                "age:{1}" +
-                "rate:{2}" +
+                "\nage:{1}" +
+                "\nrate:{2}" ,
                 Name, Age, Rate);
         }
     }
